@@ -9,7 +9,4 @@ Rules of the game
 - If a player rolls the value "1" two consecutive times then they are forced to skip their next turn as a penalty.
 
 **For playing the game:
-
-Go to DiceGame/src/DiceGame.java and run the main class.
-
-**
+Go to DiceGame/src/DiceGame.java and run the main class.**
