@@ -30,11 +30,6 @@ public class MainGame {
         int diceRoll = 0, remainingPlayers = totalPlayers;
         while (remainingPlayers >= 1) {
             for (int i = 0; i < totalPlayers; i++) {
-                /*
-                if (remainingPlayers < 2) {
-                    System.out.println("Game is finished.");
-                    break;
-                }*/
                 Player currentPlayer = players.get(i);
                 if (currentPlayer.playerState == 0) {
                     displayMessage(currentPlayer.playerId + " due to consecutive ones you can't play this turn", true);
